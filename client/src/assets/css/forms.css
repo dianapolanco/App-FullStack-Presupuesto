@@ -1,0 +1,247 @@
+.transaction-user-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-login-form{
+    padding-top: 25px;
+}
+
+.transaction-user-form div {
+    padding-top: 10px;
+}
+
+.container-user-form .user-form div {
+    padding-top: 6px;
+}
+
+.container-user-form {
+    flex-grow: 1;
+}
+
+.transaction-user-form input[type="text"],
+.transaction-user-form input[type="password"] {
+    width: 100%;
+    height: 1.8rem;
+}
+
+
+.transaction-user-form input[type="text"]:focus {
+    outline-color: #424242;
+}
+
+.date-selector select {
+    height: 1.6rem;
+    padding: 0 2px;
+}
+
+.transaction-user-form .date-selector label {
+    padding: 0 3px 0 5px;
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+
+.transaction-user-form label,
+.transaction-user-form p {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+.type-selector {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.type-selector p {
+    width: 100%;
+}
+
+
+.type-selector input {
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.transaction-user-form .type-selector label {
+    margin-right: 6px;
+    font-weight: 300;
+    font-size: 0.85rem;
+
+}
+
+.transaction-user-form .errors-form {
+    color: #F44336;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 1px;
+    width: 100%;
+
+}
+
+.transaction-user-form .type-selector .errors-form {
+    padding-top: 0;
+
+}
+
+.transaction-user-form .transaction-income {
+    color: #33CC00
+}
+
+.transaction-user-form .transaction-expense {
+    color: #F44336
+}
+
+.button-form {
+    outline: none;
+    background-color: #026edb;
+    color: white;
+    border: none;
+    padding: 6px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 100px;
+    box-shadow: 2px 6px 17px -12px rgba(0, 0, 0, 1);
+}
+
+.button-form:hover {
+    background-color: white;
+    color: #026edb;
+}
+
+.user-form .button-form {
+    width: 80px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div.button-container p,
+div.button-container button {
+    font-size: 0.85rem;
+}
+
+div.button-container button:hover {
+    font-size: 0.95rem;
+}
+
+.container-user-form-registered {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-user-form-registered .button-container {
+    padding-top: 20px;
+}
+
+.container-user-form-registered .button-container p,
+.container-user-form-registered .button-container button {
+    font-size: 1rem;
+}
+
+.container-user-form-registered .button-container button:hover{
+    font-size: 1.2rem;
+}
+
+.container-user-form-registered .button-form{
+    margin-left: 0;
+}
+
+@media (min-width: 375px) {
+
+    .date-selector select {
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 425px) {
+
+    .transaction-user-form {
+        width: 95%;
+
+    }
+}
+
+@media(min-width: 768px) {
+
+    .container-transaction-form {
+        width: 50%;
+        margin-left: 10px;
+
+    }
+
+    .transaction-user-form {
+        width: 100%;
+
+    }
+
+    .type-selector,
+    .date-selector {
+        display: flex;
+    }
+
+    .transaction-user-form .date-selector label,
+    .transaction-user-form .type-selector label {
+        font-size: 0.9rem;
+    }
+
+    .transaction-user-form label,
+    .transaction-user-form p {
+
+        font-size: 1rem;
+    }
+
+
+    .type-selector,
+    .date-selector {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .type-selector p {
+        margin-right: 40px;
+        width: 0;
+    }
+
+    .date-selector p {
+        margin-right: 5px;
+    }
+
+    div.button-container p,
+    div.button-container button {
+        font-size: 0.9rem;
+    }
+
+    div.button-container button:hover {
+        font-size: 1rem;
+    }
+
+
+    .user-form .button-form {
+        width: 85px;
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    div.button-container p, div.button-container button {
+        font-size: 1rem;
+    }
+}

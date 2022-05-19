@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  padding: 30px 25px;
+}
+
+li, p{
+  font-weight: 300;
+}
+
+button {
+  font-family : inherit;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+@media(min-width: 425px){
+
+  body{
+    padding: 30px;
+  }
+
+}
+
+@media(min-width: 768px){
+
+  body{
+    padding: 40px;
+  }
+
+}
+
+@media(min-width: 1024px){
+
+  body{
+    padding: 40px 45px;
+  }
+
+}

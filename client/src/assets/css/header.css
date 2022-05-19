@@ -1,0 +1,47 @@
+.nav-bar{
+  padding-bottom: 30px;
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+  outline: none;
+  background-color: white;
+  border: none;
+  color: #202020de;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:hover{
+  color: #026edb;
+}
+
+div.user-logged{
+  justify-content: space-between;
+}
+
+ul.guest-users{
+    justify-content:flex-end;
+    list-style: none;
+}
+
+.guest-users{
+    cursor: pointer;
+}
+
+.guest-users li:nth-child(2){
+    margin-left: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+  .nav-box button, .nav-box p {
+    font-size: 1.2rem;
+}
+
+}

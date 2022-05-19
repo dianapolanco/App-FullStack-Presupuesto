@@ -1,0 +1,209 @@
+ .table-container{
+    margin-top: 40px;
+}
+
+.table-container i, .table-container input{
+    cursor: pointer;
+}
+
+table {
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.table-filter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.table-filter div{
+  padding: 10px 0px 10px 5px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.table-filter span{
+   
+    padding-left: 2px;
+}
+
+
+td:nth-child(n+2), th:nth-child(n+2){
+   padding-left: 8px;
+}
+
+td, th {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+
+}
+
+
+thead{
+    border-bottom: 2px solid hsla(0, 5%, 78%, 0.397);
+}
+
+th{
+    padding: 10px 0 5px;
+    font-size: 0.71rem; 
+}
+
+
+td{
+    padding: 8px 0 8px;
+    font-weight: 300;
+    font-size: 0.7rem; 
+    border-bottom: 1px solid hsla(0, 5%, 78%, 0.397);
+}
+
+td.transaction-expense::before{
+  content: "-"
+}
+
+
+table i{
+    padding-right: 8px ;
+}
+
+.table-nextpage{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.table-nextpage i{
+   padding: 0 4px 0;
+}
+
+table .delete-icon:hover{
+  color: #F44336;
+}
+
+table .edit-icon:hover{
+    color: #026edb;
+  }
+
+
+.swal-modal{
+      width: 300px;
+  }
+  
+.swal-icon--warning__body, .swal-icon--warning__dot {
+  background-color: #F44336;
+}
+
+.swal-icon--warning{
+    border-color: #F44336;
+}
+
+
+ @keyframes pulseWarning {
+    0% {
+      border-color: #F44336;
+      
+    }
+    100% {
+        border-color: #F44336;
+     
+    }
+  } 
+
+  .swal-text{
+      font-size: 1rem;
+      color: black;
+      text-align: center;
+  }
+
+/* .swal-button:not([disabled]):hover {
+    background-color: #026edb;
+    color: white;
+} */
+
+
+.swal-footer {
+    text-align: center;
+
+}
+
+.swal-button--confirm {
+    background-color: white;
+    color:  #F44336;;
+    border: none;
+    box-shadow: 2px 6px 17px -12px rgba(0, 0, 0, 1);
+}
+
+.swal-button--cancel {
+    background-color: white;
+    color: #026edb;
+    border: none;
+    box-shadow: 2px 6px 17px -12px rgba(0, 0, 0, 1);
+}
+
+.swal-button--confirm:not([disabled]):hover {
+    background-color: #F44336;;
+    color:white;
+    
+}
+
+.swal-button--cancel:not([disabled]):hover {
+    background-color: #026edb;
+    color: white;
+}
+
+@media (min-width: 425px) {
+
+    td, th {
+        font-size: 0.8rem;
+    }
+
+    .swal-modal{
+        width: 350px;
+    }
+
+}
+
+@media (min-width: 620px) {
+
+    td, th {
+        font-size: 0.9rem;
+    }
+
+    td:nth-child(n+4), th:nth-child(n+4){
+        padding-left: 0px;
+     }
+
+     table i{
+        padding-right: 12px ;
+    }
+}
+
+@media (min-width: 768px){
+
+    .swal-modal{
+        width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    td, th {
+        font-size: 1rem;
+    }
+
+    .table-filter div{
+        padding-left: 8px;
+      }
+
+      .table-nextpage{
+        margin-top: 12px;
+        font-size: 0.9rem;
+    }
+
+}
+
