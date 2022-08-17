@@ -1,7 +1,8 @@
 # App-FullStack-Presupuesto
 
 ### Objetivo principal: ###
-Desarrollar una aplicación para administración de presupuesto personal. Permite crear, editar ingresos/egresos y eliminar transacciones y muestra un balance resultante de las operaciones registradas.
+Desarrollar una aplicación para administración de presupuesto personal.
+Permite crear, editar ingresos/egresos y eliminar transacciones y muestra un balance resultante de las operaciones registradas.
 
 ### Tecnologías utilizadas: ###
 - NodeJS
